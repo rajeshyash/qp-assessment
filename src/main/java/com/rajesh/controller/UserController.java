@@ -3,16 +3,13 @@ package com.rajesh.controller;
 import com.rajesh.domain.GroceryItem;
 import com.rajesh.domain.Order;
 import com.rajesh.service.GroceryItemRepository;
-import com.rajesh.service.OrderRepository;
 import com.rajesh.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
 import java.util.Set;
 
 // UserController.java
